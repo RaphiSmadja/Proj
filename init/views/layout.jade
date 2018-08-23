@@ -1,0 +1,936 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    | &#x9;
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    | &#x9;
+    title Healthcare Template
+    | &#x9;
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    | &#x9;
+    meta(name='description', content='')
+    | &#x9;
+    meta(name='keywords', content='')
+    | &#x9;
+    meta(name='author', content='')
+    // Facebook and Twitter integration
+    meta(property='og:title', content='')
+    | &#x9;
+    meta(property='og:image', content='')
+    | &#x9;
+    meta(property='og:url', content='')
+    | &#x9;
+    meta(property='og:site_name', content='')
+    | &#x9;
+    meta(property='og:description', content='')
+    | &#x9;
+    meta(name='twitter:title', content='')
+    | &#x9;
+    meta(name='twitter:image', content='')
+    | &#x9;
+    meta(name='twitter:url', content='')
+    | &#x9;
+    meta(name='twitter:card', content='')
+    | &#x9;
+    link(href='https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700', rel='stylesheet')
+    // Animate.css
+    link(rel='stylesheet', href='/stylesheets/animate.css')
+    // Icomoon Icon Fonts
+    link(rel='stylesheet', href='/stylesheets/icomoon.css')
+    // Bootstrap
+    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+    // Magnific Popup
+    link(rel='stylesheet', href='/stylesheets/magnific-popup.css')
+    // Owl Carousel
+    link(rel='stylesheet', href='/stylesheets/owl.carousel.min.css')
+    | &#x9;
+    link(rel='stylesheet', href='/stylesheets/owl.theme.default.min.css')
+    // Flexslider
+    //- link(rel='stylesheet', href='/stylesheets/flexslider.css')
+    //- // Flaticons
+    //- link(rel='stylesheet', href='fonts/flaticon/font/flaticon.css')
+    //- // Theme style
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    // Modernizr JS
+    script(src='/javascripts/modernizr-2.6.2.min.js')
+    // FOR IE9 below
+    //if lt IE 9
+      script(src='/javascripts/respond.min.js')
+  | &#x9;
+  body
+    .colorlib-loader
+    | &#x9;
+    | &#x9;
+    block content
+    #page
+      nav.colorlib-nav(role='navigation')
+        .top-menu
+          .container
+            .row
+              .col-xs-12
+                .top
+                  .row
+                    .col-md-6
+                      #colorlib-logo
+                        a(href='index.html')
+                          | Health
+                          span care
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    .col-md-3
+                      .num
+                        span.icon
+                          i.icon-phone
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        p
+                          a(href='#') 111-222-333
+                          br
+                          a(href='#') 99-222-333
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    .col-md-3
+                      .loc
+                        span.icon
+                          i.icon-location
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        p
+                          a(href='#') 88 Route West 21th Street, Suite 721 New York NY 10016
+          | &#x9;&#x9;&#x9;
+          .menu-wrap
+            .container
+              .row
+                .col-xs-8
+                  .menu-1
+                    ul
+                      li.active
+                        a(href='index.html') Home
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      li.has-dropdown
+                        a(href='doctors.html') Doctors
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        ul.dropdown
+                          li
+                            a(href='doctors-single.html') Single Doctor
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      li
+                        a(href='services.html') Services
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      li.has-dropdown
+                        a(href='departments.html') Departments
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        ul.dropdown
+                          li
+                            a(href='departments-single.html') Plasetic Surgery Department
+                          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                          li
+                            a(href='departments-single.html') Dental Department
+                          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                          li
+                            a(href='departments-single.html') Psychological Department
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      li
+                        a(href='blog.html') Blog
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      li
+                        a(href='contact.html') Contact
+      | &#x9;
+      | &#x9;
+      aside#colorlib-hero
+        .flexslider
+          ul.slides
+            li(style='background-image: url(images/img_bg_6.jpg);')
+              .overlay
+              | &#x9;&#x9;   &#x9;&#x9;
+              .container
+                .row
+                  .col-md-8.col-md-offset-2.col-md-pull-2.slider-text
+                    .slider-text-inner
+                      h1
+                        | Your Health 
+                        strong
+                          | is always 
+                          br
+                          | in the first place
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      h2
+                        | Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      p
+                        a.btn.btn-primary.btn-lg.btn-learn(href='#') Make an Appointment
+            | &#x9;&#x9;   &#x9;
+            li(style='background-image: url(images/img_bg_5.jpg);')
+              .overlay
+              | &#x9;&#x9;   &#x9;&#x9;
+              .container
+                .row
+                  .col-md-8.col-md-offset-2.col-md-pull-2.slider-text
+                    .slider-text-inner
+                      h1
+                        | We help you 
+                        strong to find the best doctor around you
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      h2
+                        | Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      p
+                        a.btn.btn-primary.btn-lg.btn-learn(href='#') Make an Appointment
+            | &#x9;&#x9;   &#x9;
+            li(style='background-image: url(images/img_bg_1.jpg);')
+              .overlay
+              | &#x9;&#x9;   &#x9;&#x9;
+              .container
+                .row
+                  .col-md-8.col-md-offset-2.col-md-pull-2.slider-text
+                    .slider-text-inner
+                      h1
+                        | Guaranted 
+                        strong safe &amp; potent
+                        |  Medicine
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      h2
+                        | Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      p
+                        a.btn.btn-primary.btn-lg.btn-learn(href='#') Make an Appointment
+            | &#x9;&#x9;   &#x9;
+            li(style='background-image: url(images/img_bg_2.jpg);')
+              .overlay
+              | &#x9;&#x9;   &#x9;&#x9;
+              .container
+                .row
+                  .col-md-8.col-md-offset-2.col-md-pull-2.slider-text
+                    .slider-text-inner
+                      h1
+                        | Helping to improve 
+                        strong quality stimulate
+                        |  innovation
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      h2
+                        | Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      p
+                        a.btn.btn-primary.btn-lg.btn-learn(href='#') Make an Appointment
+      | &#x9;
+      #colorlib-counter.colorlib-counters
+        .overlay
+        | &#x9;&#x9;
+        .container
+          .row
+            .col-md-8.col-md-offset-2.col-md-push-2.counter-wrap
+              .row
+                .col-md-3.col-sm-6.animate-box
+                  .desc
+                    p.wrap
+                      span.icon
+                        i.flaticon-healthy
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      span.colorlib-counter.js-counter(data-from='0', data-to='3297', data-speed='5000', data-refresh-interval='50')
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    span.colorlib-counter-label Satisfied Customer
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                .col-md-3.col-sm-6.animate-box
+                  .desc
+                    p.wrap
+                      span.icon
+                        i.flaticon-hospital
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      span.colorlib-counter.js-counter(data-from='0', data-to='378', data-speed='5000', data-refresh-interval='50')
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    span.colorlib-counter-label Hospitals
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                .col-md-3.col-sm-6.animate-box
+                  .desc
+                    p.wrap
+                      span.icon
+                        i.flaticon-healthy-1
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      span.colorlib-counter.js-counter(data-from='0', data-to='400', data-speed='5000', data-refresh-interval='50')
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    span.colorlib-counter-label Qualified Doctor
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                .col-md-3.col-sm-6.animate-box
+                  .desc
+                    p.wrap
+                      span.icon
+                        i.flaticon-ambulance
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      span.colorlib-counter.js-counter(data-from='0', data-to='30', data-speed='5000', data-refresh-interval='50')
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    span.colorlib-counter-label Departments
+      | &#x9;
+      #colorlib-services
+        .container
+          .row
+            .col-md-12
+              .services-flex
+                .one-fifth.no-border-bottom.animate-box
+                  .services
+                    span.icon
+                      i.flaticon-hospital
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    .desc
+                      h3
+                        a(href='#') Diagnostics and emergency treatment
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                .one-fifth.no-border-bottom.animate-box
+                  .services
+                    span.icon
+                      i.flaticon-healthy-1
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    .desc
+                      h3
+                        a(href='#') Home medical appointments
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                .one-fifth.no-border-bottom.animate-box
+                  .services
+                    span.icon
+                      i.flaticon-stethoscope
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    .desc
+                      h3
+                        a(href='#') Pharmacy refunded from hospital
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                .one-forth.animate-box
+                  .head
+                    h2 Comprehensive services for our patients
+              | &#x9;&#x9;&#x9;&#x9;&#x9;
+              .services-no-flex
+                .one-fifth.animate-box
+                  .services
+                    span.icon
+                      i.flaticon-blood-donation
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    .desc
+                      h3
+                        a(href='#') Long term medical care in a hospital
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                .services-wrap-flex
+                  .one-fifth.services-img.animate-box(style='background-image: url(images/services-1.jpg);')
+                    .services
+                      .desc
+                        span Mission
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        h3
+                          a(href='#') The correct diagnosis is half the battle
+                  | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                  .one-half
+                    .one-full-flex
+                      .one-fifth.services-img.animate-box(style='background-image: url(images/services-2.jpg);')
+                        .services
+                          .desc
+                            span Vision
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            h3
+                              a(href='#') We refund 50% of the cost of medicines
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      .one-fifth.animate-box
+                        .services
+                          span.icon
+                            i.flaticon-radiation
+                          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                          .desc
+                            h3
+                              a(href='#') A specialized laboratory research
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      .one-fifth.animate-box
+                        .services
+                          span.icon
+                            i.flaticon-ambulance
+                          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                          .desc
+                            h3
+                              a(href='#') Medical transport to the hospital
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    .one-full-flex.animate-box
+                      .services-desc
+                        .desc
+                          p
+                            | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                          a.btn.btn-primary(href='#') View services
+      | &#x9;
+      #colorlib-about
+        .container
+          .row
+            .col-md-6.col-md-push-6.animate-box
+              img.img-responsive.about-img(src='images/about.png', alt='')
+            | &#x9;&#x9;&#x9;&#x9;
+            .col-md-6.col-md-pull-6.animate-box
+              h2 About Healthcare
+              | &#x9;&#x9;&#x9;&#x9;&#x9;
+              p
+                | Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              .fancy-collapse-panel
+                #accordion.panel-group(role='tablist', aria-multiselectable='true')
+                  .panel.panel-default
+                    #headingOne.panel-heading(role='tab')
+                      h4.panel-title
+                        a(data-toggle='collapse', data-parent='#accordion', href='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
+                          | Our Mission
+                    |                          
+                    #collapseOne.panel-collapse.collapse.in(role='tabpanel', aria-labelledby='headingOne')
+                      .panel-body
+                        .row
+                          .col-md-6
+                            p
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;      &#x9;&#x9;
+                          .col-md-6
+                            p
+                              | Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                  |                      
+                  .panel.panel-default
+                    #headingTwo.panel-heading(role='tab')
+                      h4.panel-title
+                        a.collapsed(data-toggle='collapse', data-parent='#accordion', href='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
+                          | Our Vission
+                    |                          
+                    #collapseTwo.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingTwo')
+                      .panel-body
+                        p
+                          | Far far away, behind the word 
+                          strong mountains
+                          | , far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        ul
+                          li Separated they live in Bookmarksgrove right
+                          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                          li Separated they live in Bookmarksgrove right
+                  |                      
+                  .panel.panel-default
+                    #headingThree.panel-heading(role='tab')
+                      h4.panel-title
+                        a.collapsed(data-toggle='collapse', data-parent='#accordion', href='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
+                          | Why choose us
+                    |                          
+                    #collapseThree.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingThree')
+                      .panel-body
+                        p
+                          | Far far away, behind the word 
+                          strong mountains
+                          | , far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+      | &#x9;
+      #colorlib-choose
+        .container-fluid
+          .row
+            .choose
+              .half.img-bg(style='background-image: url(images/cover_bg_1.jpg);')
+              | &#x9;&#x9;&#x9;&#x9;&#x9;
+              .half.features-wrap
+                .features-services.animate-box
+                  .colorlib-heading.animate-box
+                    h2 What makes us best?
+                  | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                  .row
+                    .col-md-6
+                      .features.animate-box
+                        span.icon.text-center
+                          i.flaticon-healthy-1
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        .desc
+                          h3 Qualified Doctors
+                          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                          p
+                            | A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      .features.animate-box
+                        span.icon.text-center
+                          i.flaticon-stethoscope
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        .desc
+                          h3 Free Consultation
+                          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                          p
+                            | A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    .col-md-6
+                      .features.animate-box
+                        span.icon.text-center
+                          i.flaticon-medical-1
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        .desc
+                          h3 Online Enrollment
+                          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                          p
+                            | A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      .features.animate-box
+                        span.icon.text-center
+                          i.flaticon-radiation
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        .desc
+                          h3 Modern Facilities
+                          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                          p
+                            | A small river named Duden flows by their place and supplies it with the necessary regelialia.
+      | &#x9;
+      .colorlib-doctor
+        .container
+          .row.animate-box
+            .col-md-6.col-md-offset-3.text-center.colorlib-heading
+              h2 Well Experienced Doctors
+              | &#x9;&#x9;&#x9;&#x9;&#x9;
+              p
+                | A small river named Duden flows by their place and supplies it with the necessary regelialia.
+          | &#x9;&#x9;&#x9;
+          .row
+            .col-md-12.animate-box
+              .row
+                .owl-carousel2
+                  .item
+                    .col-md-6
+                      .doctor-desc
+                        h3
+                          a(href='#') Dr. Paul Armstrong
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        span.specialty Dental Hygienist
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        p
+                          | When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        p
+                          | Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        p
+                          a.btn.btn-primary(href='#') Email us
+                          |  
+                          a.btn.btn-primary.btn-outline(href='#') Make an appointment
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    .col-md-6
+                      .doctor-img(style='background-image: url(images/staff-3.jpg);')
+                  | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                  .item
+                    .col-md-6
+                      .doctor-desc
+                        h3
+                          a(href='#') Dr. Paul Armstrong
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        span.specialty Dental Hygienist
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        p
+                          | When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        p
+                          | Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        p
+                          a.btn.btn-primary(href='#') Email us
+                          |  
+                          a.btn.btn-primary.btn-outline(href='#') Make an appointment
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    .col-md-6
+                      .doctor-img(style='background-image: url(images/staff-1.jpg);')
+                  | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                  .item
+                    .col-md-6
+                      .doctor-desc
+                        h3
+                          a(href='#') Dr. Paul Armstrong
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        span.specialty Dental Hygienist
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        p
+                          | When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        p
+                          | Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        p
+                          a.btn.btn-primary(href='#') Email us
+                          |  
+                          a.btn.btn-primary.btn-outline(href='#') Make an appointment
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    .col-md-6
+                      .doctor-img(style='background-image: url(images/staff-2.jpg);')
+      | &#x9;
+      #colorlib-testimonial.colorlib-bg-section
+        .container
+          .row.animate-box
+            .col-md-12.colorlib-heading
+              h2 Our patients and their opinions
+          | &#x9;&#x9;&#x9;
+          .row
+            .col-md-12.animate-box
+              .owl-carousel
+                .item
+                  .testimony
+                    span.img-user(style='background-image: url(images/person1.jpg);')
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    span.user Edward Tom
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    blockquote
+                      p
+                        | &quot;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&quot;
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      p.color
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                .item
+                  .testimony
+                    span.img-user(style='background-image: url(images/person2.jpg);')
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    span.user Carl Bean
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    blockquote
+                      p
+                        | &quot;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&quot;
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      p.color
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                .item
+                  .testimony
+                    span.img-user(style='background-image: url(images/person3.jpg);')
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    span.user John Bay
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    blockquote
+                      p
+                        | &quot;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli.&quot;
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      p.color
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                .item
+                  .testimony
+                    span.img-user(style='background-image: url(images/person1.jpg);')
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    span.user Ronald Duck
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    blockquote
+                      p
+                        | &quot;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&quot;
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      p.color
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                .item
+                  .testimony
+                    span.img-user(style='background-image: url(images/person2.jpg);')
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    span.user Justine Mill
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    blockquote
+                      p
+                        | &quot;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&quot;
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                      p.color
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+                        span
+                          i.icon-star3
+      | &#x9;
+      #colorlib-blog
+        .container
+          .row.animate-box
+            .col-md-6.col-md-offset-3.text-center.colorlib-heading
+              h2 Recent blog
+              | &#x9;&#x9;&#x9;&#x9;&#x9;
+              p
+                | A small river named Duden flows by their place and supplies it with the necessary regelialia.
+          | &#x9;&#x9;&#x9;
+          .row
+            .col-md-4.animate-box
+              .blog-entry
+                a.blog-img(href='blog.html', style='background-image: url(images/blog-1.jpg);')
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                .desc
+                  p.date
+                    span
+                      a(href='#') Admin
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    span June 8 2017
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    span
+                      a(href='#')
+                        | 4 
+                        i.icon-speech-bubble
+                  | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                  h3
+                    a(href='blog.html') Here&apos;s why yoga is best for your health
+                  | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                  p
+                    | A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                  | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                  p
+                    a(href='#')
+                      | Read more 
+                      i.icon-arrow-right3
+            | &#x9;&#x9;&#x9;&#x9;
+            .col-md-4.animate-box
+              .blog-entry
+                a.blog-img(href='blog.html', style='background-image: url(images/blog-2.jpg);')
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                .desc
+                  p.date
+                    span
+                      a(href='#') Admin
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    span June 8 2017
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    span
+                      a(href='#')
+                        | 4 
+                        i.icon-speech-bubble
+                  | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                  h3
+                    a(href='blog.html') live better get to know your medical technology
+                  | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                  p
+                    | A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                  | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                  p
+                    a(href='#')
+                      | Read more 
+                      i.icon-arrow-right3
+            | &#x9;&#x9;&#x9;&#x9;
+            .col-md-4.animate-box
+              .blog-entry
+                a.blog-img(href='blog.html', style='background-image: url(images/blog-3.jpg);')
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                .desc
+                  p.date
+                    span
+                      a(href='#') Admin
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    span June 8 2017
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    span
+                      a(href='#')
+                        | 4 
+                        i.icon-speech-bubble
+                  | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                  h3
+                    a(href='blog.html') Eating apple is the source of energy
+                  | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                  p
+                    | A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                  | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                  p
+                    a(href='#')
+                      | Read more 
+                      i.icon-arrow-right3
+      | &#x9;
+      footer#colorlib-footer(role='contentinfo')
+        .overlay
+        | &#x9;&#x9;
+        .container
+          .row.row-pb-md
+            .col-md-3.colorlib-widget
+              h3 Head Office
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              ul.colorlib-footer-links
+                li
+                  | 291 South 21th Street, 
+                  br
+                  |  Suite 721 New York NY 10016
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li
+                  a(href='tel://1234567920')
+                    i.icon-phone
+                    |  + 1235 2355 98
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li
+                  a(href='mailto:info@yoursite.com')
+                    i.icon-mail
+                    |  info@yoursite.com
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li
+                  a(href='http://luxehotel.com')
+                    i.icon-location4
+                    |  yourwebsite.com
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li Mon-Thu: 9:30 &ndash; 21:00
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li Fri: 6:00 &ndash; 21:00
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li Sat: 10:00 &ndash; 15:00
+            | &#x9;&#x9;&#x9;&#x9;&#x9;
+            .col-md-2.colorlib-widget
+              h3 Departments
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              p
+              ul.colorlib-footer-links
+                li
+                  a(href='#') Neurology
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li
+                  a(href='#') Traumotology
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li
+                  a(href='#') Gynaecology
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li
+                  a(href='#') Nephrology
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li
+                  a(href='#') Cardiology
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li
+                  a(href='#') Pulmonary
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              p
+            | &#x9;&#x9;&#x9;&#x9;&#x9;
+            .col-md-2.colorlib-widget
+              h3 Useful Links
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              p
+              ul.colorlib-footer-links
+                li
+                  a(href='#') Home
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li
+                  a(href='#') Departments
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li
+                  a(href='#') Doctors
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li
+                  a(href='#') Services
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li
+                  a(href='#') News
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li
+                  a(href='#') Contact
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              p
+            | &#x9;&#x9;&#x9;&#x9;&#x9;
+            .col-md-2.colorlib-widget
+              h3 Support
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              p
+              ul.colorlib-footer-links
+                li
+                  a(href='#') Documentation
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li
+                  a(href='#') Forums
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li
+                  a(href='#') Help &amp; Support
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li
+                  a(href='#') Scholarship
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li
+                  a(href='#') Student Transport
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li
+                  a(href='#') Release Status
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              p
+            | &#x9;&#x9;&#x9;&#x9;
+            .col-md-3.colorlib-widget
+              h3 Make an Appointment
+              | &#x9;&#x9;&#x9;&#x9;&#x9;
+              form.contact-form
+                .form-group
+                  label.sr-only(for='name') Name
+                  | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                  input#name.form-control(type='name', placeholder='Name')
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                .form-group
+                  label.sr-only(for='email') Email
+                  | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                  input#email.form-control(type='email', placeholder='Email')
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                .form-group
+                  label.sr-only(for='message') Message
+                  | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                  textarea#message.form-control(rows='3', placeholder='Message')
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                .form-group
+                  input#btn-submit.btn.btn-primary.btn-send-message.btn-md(type='submit', value='Send Message')
+        | &#x9;&#x9;
+        .row.copyright
+          .col-md-12.text-center
+            p
+              small.block
+                | &copy;
+                // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+                | Copyright &copy;
+                script.
+                  document.write(new Date().getFullYear());
+                |  All rights reserved | This template is made with 
+                i.icon-heart(aria-hidden='true')
+                |  by 
+                a(href='https://colorlib.com', target='_blank') Colorlib
+                // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+              |  
+              | &#x9;&#x9;&#x9;&#x9;&#x9;
+              small.block
+                | Demo Images: 
+                a(href='http://unsplash.co/', target='_blank') Unsplash
+                |  , 
+                a(href='https://www.pexels.com/', target='_blank') Pexels
+    | &#x9;
+    .gototop.js-top
+      a.js-gotop(href='#')
+        i.icon-arrow-up
+    // jQuery
+    script(src='/javascripts/jquery.min.js')
+    // jQuery Easing
+    script(src='/javascripts/jquery.easing.1.3.js')
+    // Bootstrap
+    script(src='/javascripts/bootstrap.min.js')
+    // Waypoints
+    script(src='/javascripts/jquery.waypoints.min.js')
+    // Stellar Parallax
+    script(src='/javascripts/jquery.stellar.min.js')
+    // Carousel
+    script(src='/javascripts/owl.carousel.min.js')
+    // Flexslider
+    script(src='/javascripts/jquery.flexslider-min.js')
+    // countTo
+    script(src='/javascripts/jquery.countTo.js')
+    // Magnific Popup
+    script(src='/javascripts/jquery.magnific-popup.min.js')
+    | &#x9;
+    script(src='/javascripts/magnific-popup-options.js')
+    // Sticky Kit
+    script(src='/javascripts/sticky-kit.min.js')
+    // Main
+    script(src='/javascripts/main.js')
